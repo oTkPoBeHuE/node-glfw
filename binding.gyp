@@ -123,7 +123,7 @@
 					] } ],
 					[ 'OS=="mac"', { 'action' : [
 						'rm',
-						'<(module_root_dir)/build/Release/obj.target/glfw/src/glfw.o',
+						'<(module_root_dir)/build/Release/obj.target/glfw/cpp/glfw.o',
 						'<(module_root_dir)/build/Release/glfw.node'
 					] } ],
 					[ 'OS=="win"', { 'action' : [
